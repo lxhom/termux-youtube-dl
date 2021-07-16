@@ -1,6 +1,7 @@
 #!/bin/bash
 clear
 
+set -x
 if [[ "$1" =~ ^.*youtu.*$ ]] || [[ "$1" =~ ^.*youtube.*$ ]]; then
   echo -e "Downloading video...\\n>URL: ${1}\\n"
   youtube-dl -F "$1"
