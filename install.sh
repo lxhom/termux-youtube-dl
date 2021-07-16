@@ -25,7 +25,7 @@ mkdir -p $YOUTUBEDL_OUTPUT_FOLDER
 mkdir -p $YOUTUBEDL_CONFIG_FOLDER
 mkdir -p $TERMUXURLOPENER_CONFIG_FOLDER
 # Download setup & config file
-curl -L https://raw.githubusercontent.com/lxhom/termux-youtube-dl/master/ytdl.conf > "${YOUTUBEDL_CONFIG_FOLDER}/config"
+curl -L https://raw.githubusercontent.com/lxhom/termux-youtube-dl/master/.ytdl.conf > "${YOUTUBEDL_CONFIG_FOLDER}/config"
 curl -L https://raw.githubusercontent.com/lxhom/termux-youtube-dl/master/share2youtubedl.sh > "${TERMUXURLOPENER_CONFIG_FOLDER}/termux-url-opener"
 
 echo -e "${BLUE}Congratulations!!! Your setup is complete.\n\n"
